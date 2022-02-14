@@ -1,0 +1,43 @@
+commands For using this tools 
+1. strings 
+strings [filename]
+ex : strings cat.jpg
+
+
+2.Steghide :
+steghide -h [ To show all commands ]
+steghide extract -sf cat.jpg [ to extract hidden file in jpg image ] 
+
+3.Binwalk 
+
+binwalk --extract --dd=".*" cut3_c4t.png    [for deep analisis] 
+
+4.Exiftool 
+
+exiftool [filename]
+
+ex : exiftool cat.jpg
+
+5.Stegsolve 
+java -jar stegsolve.jar
+[ note : keep this tool in your working directory ]
+
+
+6.Stegoveritas 
+
+stegoveritas -h [ to show all commands ] 
+
+7. Foremost 
+foremost [filename]
+
+8. Diff 
+
+diff [filename]
+
+9. Hexedit 
+hexedit [filename ]
+
+10 .Stegseek 
+stegseek [stegofile.jpg] [wordlist.txt]
+
+ex : stegseek cat.jpg rockyou.txt
