@@ -21,7 +21,7 @@ echo -e " Please be sure to be root before running this tool  "
 echo -e "Editing your sources.list "
 
 
-echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
+echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
 echo "deb http://http.kali.org/kali sana main non-free contrib" | sudo tee -a /etc/apt/sources.list
 echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free" | sudo tee -a /etc/apt/sources.list
 echo "deb http://old.kali.org/kali moto main non-free contrib" | sudo tee -a /etc/apt/sources.list
