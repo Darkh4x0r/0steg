@@ -9,5 +9,7 @@ command :
 
 
 git clone https://github.com/Darkh4x0r/0steg0steg.git
+
 chmod +x 0steg.sh
+
 ./0steg.sh
